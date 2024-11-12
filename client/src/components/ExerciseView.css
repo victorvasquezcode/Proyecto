@@ -1,0 +1,71 @@
+.exercise-view-container {
+    display: flex;
+    height: 100vh;
+    background-color: #121212;
+    color: white;
+}
+
+.sidebar {
+    width: 25%;
+    background-color: #1f1f1f;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topic-info {
+    text-align: center;
+}
+
+.progress-box {
+    margin-top: 20px;
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.exercise-list {
+    flex-grow: 1;
+    padding: 40px;
+}
+
+.exercise-list h2 {
+    margin-bottom: 20px;
+}
+
+.exercise-item {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1e1e1e;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.exercise-item:hover {
+    background-color: #2e2e2e;
+}
+
+.exercise-item .difficulty {
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+.difficulty.fácil {
+    background-color: #4caf50;
+    color: white;
+}
+
+.difficulty.media {
+    background-color: #ff9800;
+    color: white;
+}
+
+.difficulty.difícil {
+    background-color: #f44336;
+    color: white;
+}

@@ -1,0 +1,67 @@
+.exercise-topics-container {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.topics-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: linear-gradient(135deg, #1f4037 0%, #99f2c8 100%);
+    border-radius: 15px;
+    padding: 25px;
+    width: 320px;
+    height: 400px; /* Ajustar la altura */
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Esto asegura que el botón quede al final */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card h3 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #e0e0e0;
+    margin-bottom: 20px;
+    font-size: 16px;
+    flex-grow: 1; /* El texto ocupará el espacio intermedio */
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00c6ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #009fd4;
+}
+
+.card-icon {
+    margin-bottom: 15px;
+    text-align: center;
+}
